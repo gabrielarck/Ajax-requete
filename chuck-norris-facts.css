@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.img-chuck{
+    height: 200px;
+    width: 300px;
+}
+.container{
+    text-align: center;
+    border: solid;
+    background-color: rgb(227, 230, 202);
+}
+.section{    
+    background-color: rgb(186, 190, 142);
+}
