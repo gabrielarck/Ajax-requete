@@ -1,9 +1,7 @@
 .content{
     display: flex;
     flex-direction: column;
-    text-align:-webkit-center;
-
-    
+    text-align:-webkit-center;  
 }
 .img-chuck{
     height: 200px;
@@ -13,7 +11,9 @@
     text-align: center;
     border: solid;
     background-color: rgb(227, 230, 202);
+    
 }
 .section{    
     background-color: rgb(186, 190, 142);
+    
 }
