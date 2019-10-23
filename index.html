@@ -20,8 +20,7 @@
   <section class="section">
     <div class="container">
       <h1 class="title">Chuck Norris Jokes</h1>
-      <p>Reload for another joke!</p>
-
+      <button onClick={fetchChuckJSON()}>Reload for another joke!</button>
       <div class="content" id="chuck-norris">
       </div>
     </div>
@@ -43,7 +42,9 @@
 
      
       const chuckHtml = `
-        <img class="img-chuck" src="${chuck.icon_url}"/>
+        
+          <img class="img-chuck" src="${chuck.icon_url}"/>
+        
         <p><strong>${chuck.value}</strong></p>
       ;`
       document.querySelector('#chuck-norris').innerHTML = chuckHtml;
